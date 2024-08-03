@@ -1,0 +1,12 @@
+.product_cont {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the min value as needed */
+    max-width: 1000px;
+    margin: 100px auto;
+    gap: 40px;
+    justify-items: center; /* Center the items within each grid cell */
+ }
+ 
+.product_cont div{
+    margin: 0 auto;
+}

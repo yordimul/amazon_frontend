@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cont{
+    
+    color: white;
+    background-color: black;
+    
+
+}
+.cont ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.cont ul li{
+    padding: 8px;
+}
+.cont ul  :first-child{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+
+    
